@@ -1,4 +1,4 @@
-open class Vehicle(val make: String, val model: String){ //open is for the mother class
+open class Vehicle(val make: String, val model: String){ //open is for the mother class, we need to write it if we want the class to be inherited
 // before the name of the variable i have to write whether it is a var or val always
     open fun accelerate(){ //open because i can change this particular function in another class just by using the world override
         println("$model go faster")
