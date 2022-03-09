@@ -26,4 +26,9 @@ fun calculateFunction(a: Int, b: Int): String{ // i have to write the type of th
 
 fun printFunction(str: String = "this is a string"){
     println(str)
+}    
+    
+fun sayHello(): Unit{ // Unit doesnt return anything, can be omitted
+ println(calculateFunction())   
 }
+
