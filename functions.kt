@@ -8,8 +8,6 @@ fun main() {
     println("sum is ${calculateFunction(4,1)}")
 
     printFunction("this is string that overrides")
-
-
 }
 
 fun testFunction(){
@@ -31,4 +29,6 @@ fun printFunction(str: String = "this is a string"){
 fun sayHello(): Unit{ // Unit doesnt return anything, can be omitted
  println(calculateFunction())   
 }
+
+// i  can write String? for null values
 
