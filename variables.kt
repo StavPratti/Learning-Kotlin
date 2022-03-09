@@ -27,5 +27,6 @@ fun main() {
     var bstr = '9'
     println(astr+name)
 
-    val name: String? = null // i put questionmark at the end of the type if i want to assign the null price to a var/val
+    val name: String? = null // i put questionmark at the end of the type if i want to assign the null value to a var/val
+    // kotlin works with non-null types by default
 }
