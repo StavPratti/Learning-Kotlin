@@ -7,6 +7,14 @@ open class Vehicle(val make: String, val model: String){ //open is for the mothe
     fun brake(){
         println("$make go slower")
     }
+    
+    constructor(): this("Peter", "Parker"){
+        println("secondary constructor")
+    }
+    
+    init {  // this part of code always runs
+        println("init 1")
+    }   
 }
 
 class Car(make: String, model: String, var color: String) : Vehicle(make, model){
