@@ -29,4 +29,9 @@ fun main() {
 
     val name: String? = null // i put questionmark at the end of the type if i want to assign the null value to a var/val
     // kotlin works with non-null types by default
+    
+    // arrays
+    // i dont have to define the type of the array's elements
+    val interestingThings = arrayOf("Kotlin", "Programming", "Code")
+    interestingThings.size
 }
