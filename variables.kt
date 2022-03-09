@@ -34,4 +34,8 @@ fun main() {
     // i dont have to define the type of the array's elements
     val interestingThings = arrayOf("Kotlin", "Programming", "Code")
     interestingThings.size
+    
+    interestingThings.forEach {it: String
+        println(it) // "it" is the default value for each element of the array 
+    }
 }
